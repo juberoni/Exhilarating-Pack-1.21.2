@@ -2,6 +2,7 @@ package net.jube.exhilaratingpack;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.jube.exhilaratingpack.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,7 @@ public class ExhilaratingPack implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 
 	}
 }
